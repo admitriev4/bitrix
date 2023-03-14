@@ -1,0 +1,193 @@
+.search-page-container {
+    padding: 20px;
+    margin: 0;
+}
+.bold {
+    font-weight: bold!important;
+}
+.title-big {
+    grid-area: title;
+    font-size: 35px!important;
+    color: #000000!important;
+    font-weight: bold!important;
+}
+.title-medium {
+    font-size: 20px!important;
+    color: #000000!important;
+    font-weight: bold!important;
+}
+.catalog-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    padding: 15px;
+    background: #f7f7f7;
+}
+.catalog-item {
+    background: #ffffff;
+    padding: 15px;
+}
+.buy-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+}
+.catalog-link {
+    font-size: 20px!important;
+    color: #e45c5f!important;
+    font-weight: bold!important;
+}
+
+.catalog-btn{
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #e45c5f;
+    padding: .7em 1.5em;
+    outline: none;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.catalog-btn:hover { background: #ffffff; border: 1px solid #e45c5f; color: #e45c5f; text-decoration: none;}
+.catalog-btn:active { background: #e45c5f;  color: #fff; }
+
+.catalog-item-detail {
+    display: grid;
+    grid-template-areas: "title title" "img right" "text text";
+    grid-template-columns: 1fr 1fr ;
+}
+.catalog-item-picture {
+    grid-area: img;
+    width: 95%;
+    height: 95%;
+}
+.catalog-item-picture img{
+    width: 100%;
+}
+.catalog-item-right-text {
+    grid-area: right;
+    margin-top: 40px;
+}
+.property-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.catalog-item-detail-text {
+    grid-area: text;
+    text-align: left;
+}
+.catalog-item-detail-text p{
+    font-size: 18px!important;
+
+}
+.catalog-filter {
+    border: 1px solid #777;
+    margin-top: 60px;
+}
+.catalog-min-price {
+    border-radius: 10px!important;
+}
+.catalog-max-price {
+    border-radius: 10px!important;
+}
+.catalog-filter-parameter-title span{
+    color: #e45c5f!important;
+}
+.catalog-filter-price-active-line {
+    background: #e45c5f;
+}
+.catalog-filter-price-passive-line {
+    background: #eb9898;
+}
+.catalog-filter-price-left {
+    background: #eb9898;
+    border-radius: 50px;
+    top: -8px!important;
+}
+.catalog-filter-price-right {
+    background: #eb9898;
+    top: -8px!important;
+    border-radius: 50px;
+}
+.catalog-filter-price-mark {
+    background: none!important;
+}
+.catalog-filter-checkbox {
+    position: relative!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 10px 0 0!important;
+    padding: 0!important;
+}
+.catalog-filter-checkbox-container span{
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.catalog-filter-checkbox-text {
+    display: flex!important;
+}
+.catalog-filter-btn {
+    color: #fff!important;
+    text-decoration: none!important;
+    user-select: none!important;
+    background: #e45c5f!important;
+    padding: .7em 1.5em!important;
+    outline: none!important;
+    border-radius: 7px!important;
+}
+.catalog-filter-btn-del {
+ color: #e45c5f!important;
+    padding: 0 0 0 5px!important;
+}
+.catalog-section-list-left {
+    margin-top: 30px;
+    border: 1px solid #777;
+    padding: 10px 10px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.catalog-section-list-item {
+    font-size: 18px!important;
+    color: #e45c5f!important;
+
+}
+.basket-items-list-container {
+    overflow: visible!important;
+}
+.catalog-sections-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+}
+.basket-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px;
+}
+.header-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 0.5fr;
+
+}
+.search {
+    width: 90% !important;
+}
+
+
+
+
+
+

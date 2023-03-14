@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Nunc";
+$arDirProperties = Array(
+
+);
+?>
